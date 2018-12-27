@@ -18,18 +18,12 @@
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register ./test/*.spec.ts"
+    "test": "mocha -r ts-node/register ./test/*.spec.ts",
+    "precommit": "lint-staged"
   },
   "author": "saltylight",
   "license": "ISC",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.ts": ["./node_modules/.bin/tslint --fix", "git add"]
   }
-}
-
 }
