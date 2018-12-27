@@ -1,1 +1,0 @@
-# projecteuler-monorep, js
