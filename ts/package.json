@@ -12,10 +12,12 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "ts-node": "^7.0.1",
+    "tslint": "^5.12.0",
     "typescript": "^3.2.2"
   },
   "scripts": {
-    "test": "mocha -r ts-node/register ./test/*.spec.ts"
+    "test": "mocha -r ts-node/register ./test/*.spec.ts",
+    "precommit": "./node_modules/.bin/tslint ./src/*.ts"
   },
   "author": "saltylight",
   "license": "ISC"
