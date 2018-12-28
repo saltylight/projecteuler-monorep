@@ -1,7 +1,7 @@
 import { expect } from "chai";
-import { sumSquareDifference } from "../src/problem6";
+import {sumSquareDifference} from "../src/problem6";
 
-describe("Problem 5: Smallest multiple", () => {
+describe("Problem 6: Sum square difference", () => {
 
     it("should return 2640 when input is 10", () => {
         const answer: number = 2640;
