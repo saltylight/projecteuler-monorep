@@ -24,6 +24,9 @@
   "author": "saltylight",
   "license": "ISC",
   "lint-staged": {
-    "./ts/src/*.ts": ["tslint --fix", "git add"]
+    "./src/*.ts": [
+      "tslint --fix",
+      "git add"
+    ]
   }
 }
