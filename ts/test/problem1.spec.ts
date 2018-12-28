@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { sumOfMultiples } from "../src/problem1";
 
-describe("sumOfMultiples function", () => {
+describe("Problem 1: Multiples of 3 and 5", () => {
 
     it("should return 23 when input is 10, 3, 5", () => {
         const answer = 23;

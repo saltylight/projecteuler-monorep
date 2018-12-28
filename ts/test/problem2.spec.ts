@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { sumOfEvenFibo } from "../src/problem2";
 
-describe("sumOfMultiples function", () => {
+describe("Problem 2: Even Fibonacci numbers", () => {
 
     it("should return 10 when input 10", () => {
         const answer = 10;
