@@ -12,7 +12,8 @@
      */
     "curly": true,
     "max-line-length": [false, 120],
-    "no-var-requires": false
+    "no-var-requires": false,
+    "interface-name": [true, "never-prefix"]
   },
   "jsRules": {
     /*
